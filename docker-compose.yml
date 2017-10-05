@@ -5,4 +5,6 @@ services:
         image: composer:latest
         restart: always
         tty: true
+        build: .
+        container_name: local_composer
                     
