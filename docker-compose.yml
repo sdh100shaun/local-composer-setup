@@ -1,0 +1,8 @@
+version: '2'
+services:
+
+    composer:
+        image: composer:latest
+        restart: always
+        tty: true
+                    
